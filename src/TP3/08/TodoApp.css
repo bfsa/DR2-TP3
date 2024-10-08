@@ -1,0 +1,84 @@
+.todo-app {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-task-form {
+  display: flex;
+  margin-bottom: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.add-task-form input {
+  flex-grow: 1;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px 0 0 4px;
+}
+
+.add-task-form button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 10px;
+}
+
+.add-task-form button:hover {
+  background-color: #27ae60;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.todo-item {
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-item.completed span {
+  text-decoration: line-through;
+  color: #7f8c8d;
+}
+
+.todo-item button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.todo-item button:hover {
+  background-color: #2980b9;
+}
+
+.todo-item button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}

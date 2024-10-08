@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.greeting-container {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #2c3e50;
+  text-align: center;
+}
+
+.greeting {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 0;
+  color: #333;
+  text-align: center;
+}
